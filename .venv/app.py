@@ -5,7 +5,7 @@ import os
 app = Flask(__name__)
 
 # Configuracion de credenciales de la API de OpenAI
-openai.api_key = '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'
+openai.api_key = 'Colocar la llave API aqui'
 
 # Define la ruta predeterminada para volver al inicio
 @app.route("/", methods=["POST", "GET"])
